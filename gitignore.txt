@@ -1,8 +1,0 @@
-# dolphin file
-.directory
-
-# SASS MODULES
-node_modules/
-
-# CSS
-css/
