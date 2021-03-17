@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" 
+  		content="My Sweet Sweet Lab, un laboratorio de sabores para vos. 
+  		Soy una emprendedora que mezcla su profesion de quimica con su amor por la cocina.
+		Contactame para lo que gustes">
+  <meta name="keywords" 
+  		content="contacto,pedidos,consultas,comanda,eventos,muffins,telefono,apellido,ordenes,pasteleria,mermeladas,budines,delicatessen,tortas">
+	<!-- Font Awesome -->
+	<link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    rel="stylesheet"
+  />
+  <!-- BOOTSRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<!-- MDB -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+    rel="stylesheet"/>
+  <!-- PERSONAL STYLE  -->
+  <link rel="stylesheet" href="../css/mssl.css"/>
+  <title>MySweetSweetLab - Contactame</title>
+</head>
+
+<body>
+	 <div class="body">
+		<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+			<a class="navbar-brand" href="#">
+			  <img class="img-fluid" src="../images/icons/mssl_logo.svg" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarToggler">
+				<div class="navbar-nav nav-fill w-100 mx-5">
+				  <a class="nav-link" href="01_we.html">Quién Soy</a>
+				  <a class="nav-link" href="02_tips_recipes.html">Consejos y Recetas</a>
+				  <div class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="templates/03_products.html" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Productos
+					</a>
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="productsDropdown">
+					  <a class="dropdown-item" href="03_products.html">Dellicatesen</a>
+					  <a class="dropdown-item" href="03_products.html">Mermeladas</a>
+					  <a class="dropdown-item" href="03_products.html">Pasteleria</a>
+					</div>
+				  </div>
+				  <a class="nav-link" href="05_contact.html">Contacto</a>
+				</div>
+			</div>
+			<a class="nav-link" data-toggle="modal" data-target="#staticBackdrop" href="#"><i class="fa fa-shopping-cart fa-3x"></i></a>
+		 </nav>
+		  <header>
+			  <!-- Modal -->
+			<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+					<h5 class="modal-title" id="staticBackdropLabel">Estas a punto de entrar al sector de pagos</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					</div>
+					<div class="modal-body">
+					Asegurate de tener tu tarjeta de credito a mano!
+					</div>
+					<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Volver</button>
+					<button type="button" class="btn btn-primary">Acepto</button>
+					</div>
+				</div>
+				</div>
+			</div>
+		  </header>
+
+		  <div class="icon text-center">
+				<img src="/images/icons/contact_upper_icon.svg" alt="icono separacion"> 
+		  </div>
+
+		  <form class="needs-validation" validate>
+			<div class="form-row d-flex justify-content-around">
+				<div class="col-md-3 mb-3">
+				  <label for="validationDefault01">Nombre</label>
+				  <input type="text" class="form-control" id="validationDefaultp01" placeholder="Nombre" required>
+				</div>
+				<div class="col-md-3 mb-3">
+				  <label for="validationDefault02">Apellido</label>
+				  <input type="text" class="form-control" id="validationDefault02" placeholder="apellido" required>
+				</div>
+			  </div>
+			  <div class="form-row d-flex justify-content-around">
+				<div class="col-md-3 mb-3">
+				  <label for="validationDefault01">Mail</label>
+				  <input type="text" class="form-control" id="validationDefault01" placeholder="@algo.com"required>
+				</div>
+				<div class="col-md-3 mb-3">
+				  <label for="validationDefault02">Telefono</label>
+				  <input type="text" class="form-control" id="validationDefault02" placeholder="(area) (celular sin 15)" required>
+				</div>
+			  </div>
+			  <div class="form-row d-flex justify-content-around">
+			  <div class="col-md-6 mb-3">
+				<label for="validationTextarea">Que me queres contar?</label>
+				<textarea class="form-control" id="validationTextarea" placeholder="tu mensaje aca" required></textarea>
+				<div class="invalid-feedback">
+				  Dejar un mensaje por favor
+				</div>
+			  </div>
+			</div>
+
+
+
+
+			  <div class="form-group">
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+				  <label class="form-check-label" for="invalidCheck2">
+					Queres que te envie mis promociones?
+				  </label>
+				</div>
+			  </div>
+			  <div class="text-center">
+				<button type="button" class="btn btn-primary" type="submit">Enviar</button>
+			  </div>
+		  </form>
+
+
+		  <!-- FOOTER-->
+		  <footer class="footer-custom">
+			<div class="container-fluid row index-footer">
+			  <div class="col-2">
+				<a class="navbar-brand d-flex align-items-center" href="../index.html">
+				  <img src="../images/icons/mssl_logo.svg" alt="logo empresa" class="img-fluid">
+				</a>
+			  </div>
+			  <div class="col-3">
+				<h3 class="footer-title text-center">Por si te perdiste</h3>
+				<ul class="index-footer">
+				  <li>
+					<a href="01_we.html">Quién Soy</a></li>
+				  <li>
+					<a href="02_tips_recipes.html">Consejos y Recetas</a>
+				  </li>
+				  <li>
+					<a href="03_products.html">Productos</a>
+				  </li>
+				  <li>
+					<a href="04_sales.html">Ofertas</a>
+				  </li>
+				  <li>
+					<a href="05_contact.html">Contacto</a>
+				  </li>
+				</ul>
+			  </div>
+			  <div class="col-3">
+				<h3 class="footer-title text-center">Contacto</h3>
+				<ul class="list-group list-group-flush">
+				  <li class="list-group-item text-center">
+					<div class="md-v-line"></div><i class="fas fa-mobile mr-4 pr-3"></i> (+54) 911-1234-5678
+				  </li>
+				  <li class="list-group-item text-center">
+					<div class="md-v-line"></div><i class="fas fa-map-marker-alt mr-4 pr-3"></i>Parque Chas - CABA
+				  </li>
+				  <li class="list-group-item text-center">
+					<div class="md-v-line"></div><i class="fas fa-paper-plane mr-4 pr-3"></i>mail@mssl.com.ar
+				  </li>
+				</ul>
+			  </div>
+			  <div class="col-4">
+				<h3 class="footer-title text-center">Encontrame en las redes sociales</h3>
+				<div class="text-center justify-content-around">
+					<!-- Facebook -->
+					<a
+					  class="btn btn-link btn-floating btn-lg m-4" role="button" href="#!"><i class="fab fa-facebook-f fa-3x"></i>
+					</a>
+					<!-- Instagram -->
+					<a
+					  class="btn btn-link btn-floating btn-lg m-4" role="button" href="#!"><i class="fab fa-instagram fa-3x"></i>
+					</a>
+				</div>
+			  </div>
+		  </div>
+		  <!-- Copyright -->
+		  <div class="text-center p-3"> © 2021 Todos los derechos reservados:
+			<a class="text-dark" href="#">BuenosCodes</a>
+		  </div>
+		  <!-- Copyright -->
+		</footer>
+
+	 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+	 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+	 crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" 
+	 integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" 
+	 crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
+	 type="text/javascript"></script>
+	
+	
+	</body>
+
+</html>
