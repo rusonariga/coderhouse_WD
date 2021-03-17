@@ -2,7 +2,7 @@
 .directory
 
 # SASS MODULES
-node_modules/
+#node_modules/
 
 # CSS
-css/
+#css/
