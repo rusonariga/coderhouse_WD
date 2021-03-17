@@ -3,3 +3,6 @@
 
 # SASS MODULES
 node_modules/
+
+# CSS
+css/
