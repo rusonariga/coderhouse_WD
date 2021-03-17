@@ -1,0 +1,27 @@
+.footer-custom{
+    background-color:$orangeFooter;
+    font-family: 'Montserrat',serif;
+    color:$white;
+    h3{
+        text-transform: uppercase;
+    }
+    ul{
+        list-style-type: none;
+        background-color: inherit;    
+        color:inherit;  
+    }
+    a{
+        color:inherit;
+    }
+    .p-3{
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    li{
+        color:inherit;
+        background-color:inherit;  
+    }
+    // .navbar-brand{
+    //     display: flex;
+    //     align-items: center;
+    // }
+}

@@ -1,0 +1,19 @@
+.navbar-custom {
+    background-color: $orangeNav;
+    backdrop-filter: blur(5px);
+    a {
+        color: $orange !important;
+        font-family:  'Montserrat',serif;
+        text-transform: uppercase;
+
+        img {
+            margin: 0;
+            max-width: 100%;
+            height: 100px;
+        }
+    }
+
+    .dropdown-menu {
+        background-color: $orangeNav;
+    }
+}

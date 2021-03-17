@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Montserrat&display=swap");
+.title-custom {
+  font-family: 'Playfair',serif;
+  color: #ff6666;
+  text-align: center;
+  color: #ff6666; }
+
+.paragraph-custom {
+  font-family: 'Playfair',serif;
+  color: #00000094; }
+
+.index-body {
+  background-image: url("../images/templates/index/mssl_bg_main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.index__img {
+  height: 400px;
+  width: 400px; }
+
+.carousel-control {
+  color: black; }
+
+.navbar-custom {
+  background-color: #ff666a0;
+  backdrop-filter: blur(5px); }
+  .navbar-custom a {
+    color: #ff6666 !important;
+    font-family: 'Montserrat',serif;
+    text-transform: uppercase; }
+    .navbar-custom a img {
+      margin: 0;
+      max-width: 100%;
+      height: 100px; }
+  .navbar-custom .dropdown-menu {
+    background-color: #ff666a0; }
+
+.icon img {
+  height: 75px; }
+
+.footer-custom {
+  background-color: rgba(255, 102, 102, 0.95);
+  font-family: 'Montserrat',serif;
+  color: #fcf8ec; }
+  .footer-custom h3 {
+    text-transform: uppercase; }
+  .footer-custom ul {
+    list-style-type: none;
+    background-color: inherit;
+    color: inherit; }
+  .footer-custom a {
+    color: inherit; }
+  .footer-custom .p-3 {
+    background-color: rgba(0, 0, 0, 0.1); }
+  .footer-custom li {
+    color: inherit;
+    background-color: inherit; }
