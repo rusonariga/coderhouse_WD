@@ -30,9 +30,9 @@
   <title>MySweetSweetLab - Productos artesanales</title>
 </head>
 
-<body>
+<body class="index-body">
   <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="../index.html">
       <img class="img-fluid" src="../images/icons/mssl_logo.svg" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,148 +79,59 @@
           </div>
           </div>
         </div>
-     </header>
+    </header>
   
     <!-- PRODUCTS SECTION -->
 
-    <section class="product-container">
-      <div class="product-title">
-        Productos
+    <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="col"></div>
+        <div class="col-10"><h1 class="title-custom products__page-title">Productos</h1></div>
+        <div class="col"></div>
       </div>
-      <div class="product-type-area">
-        <div  class="product-type">
-          <span class="product_type_title">Mermeladas</span>
-
-
-          <div class="product-selection" id="jams">
-            <div class="product-type-identifier">
-              <img src="" alt="Image mermelada">
-              <p>
-                Texto sobre mermeladas
-              </p>
-            </div>
-            <div class="season-selection">
-              <div class="season">
-                <a href="#summer-jam">Verano</a> 
-              </div>
-              <div class="season">
-                <a href="#fall-jam">Otoño</a> 
-              </div>
-              <div class="season">
-                <a href="#winter-jam">Invierno</a>
-              </div>
-              <div class="season">
-                <a href="#spring-jam">Primavera</a>
-              </div>
-
-            </div>
-          </div>
-
-
-
-
-        </div>
-
-        <div  class="product-type">
-          
-          <a href="#cakes">Tortas</a>
-
-        </div>
-
-        <div  class="product-type">
-          
-          <a href="#delli">Dellicatessen</a>
-
-        </div>
-
-      </div>
-
-
-      
-
-      <div class="products-area">
-
-        <div class="product" id="summer-jam">
-          Acá van mermeladas de verano
-
-        </div>
-        
-        <div class="product" id="fall-jam">
-          Acá van mermeladas de otoño
-
-        </div>
-        <div class="product" id="winter-jam">
-          Acá van mermeladas de invierno
-
-        </div>
-        <div class="product" id="spring-jam">
-          Acá van mermeladas de primavera
-
-        </div>
-
-        <div class="product" id="cakes">
-          Acá van tortas
-
-        </div>
-
-        <div class="product" id="delli">
-          Acá van Dellicatessens
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- INTENTO ANTERIOR DE PRODUCTS SECTION COMENTADO POR EL MOMENTO -->
-
-    <!-- <section class="products">
-      <div class="prod-container">
-        <h1 class="prod-title">
-          Nuestros Productos
-        </h1>
-        <div class="prod-options">  
-          <ul class="prod-categories">
-            <li>
-                <div class="categ-dropdown">
-                  <span class="categ-dropdown-title">Categorías</span>
-                  <div class="categ-dropdown-content">
-                      <a href="#delli">Dellicatessen</a>
-                      <a href="#pasteleria">Pastelería</a>
-                      <a href="#dulces">Dulces</a>
-                  </div>
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <div class="row mb-5">
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title text-right title-custom products__title">Mermeladas Caseras</h3>
                 </div>
-            </li>
-            <li>
-                <form class="categ-search" action="#">
-                  <input type="text" placeholder="Search">
-                  <button type="submit"><img class="search" src="../images/icons/search.png" height="12px"></button>
-                </form>
-          </ul>
-        </div> -->
-        <!-- <div class="prod-list">
-          <div class="prod_sort">
-            <div class="pasteleria-section" id="pasteleria">
-              <div class="prod-item">
-                <img class="prod-item-img" src="../images/products/pasteleria/chocolate-muffin.jpg" alt="Delicioso muffin de chocolate">
-                <h2>Muffin de chocolate</h2>
+                <img class="products__icon" src="../images/icons/water_lily.png" alt="">
+                <a class="products__link" href="#"><img class="card-image-bottom products__image" src="../images/products/highlights/strawberry-jam.jpg" alt=""></a>
               </div>
-              <div class="prod-item">
-                <img class="prod-item-img" src="../images/products/pasteleria/vanilla-muffin.jpg" alt="Delicioso muffin de chocolate">
-                <h2>Muffin de vainilla</h2>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title text-right title-custom products__title">Cupcakes</h3>
+                </div>
+                <img class="products__icon" src="../images/icons/water_lily.png" alt="">
+                <img class="card-image-bottom products__image" src="../images/products/highlights/cupcakes.jpg" alt="">
               </div>
             </div>
           </div>
-        </div> -->
+          <div class="row mb-5">
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                  <div class="col-12"><h3 class="card-title text-right title-custom products__title">Cookies</h3></div>
+                </div>
+                <img class="products__icon" src="../images/icons/water_lily.png" alt="">
+                <img class="card-image-bottom products__image" src="../images/products/highlights/cookies.jpg" alt="">
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title text-right title-custom products__title">Especias</h3>
+                </div>
+                <img class="products__icon" src="../images/icons/water_lily.png" alt="">
+                <img class="card-image-bottom products__image" src="../images/products/highlights/spices.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3"></div>
       </div>
-      <div class="grid-product-btn">
-        <a href="#" class="aButton">Ir a la Tienda</a>
-      </div>
-
-
-    </section>
+    </div>
 
   </div>
 
@@ -244,8 +155,6 @@
       <a href="03_products.html">Productos</a>
       </li>
       <li>
-      <a href="04_sales.html">Ofertas</a>
-      </li>
       <li>
       <a href="05_contact.html">Contacto</a>
       </li>

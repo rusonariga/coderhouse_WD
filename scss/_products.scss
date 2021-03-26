@@ -1,0 +1,33 @@
+.index-body {
+    background-image: url("../images/templates/index/mssl_bg_templates.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.products__image {
+    width: 100%;
+    height: 14em;
+    z-index: 1;
+}
+
+.products__link {
+    z-index: 1;
+}
+
+.products__icon {
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    transform: translate(-25px, 50px);
+    z-index: 0;
+}
+
+.products__page-title {
+    text-align: left;
+}
+
+.products__title {
+    text-align: right;
+    margin-bottom: 10px;
+}
