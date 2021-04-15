@@ -11,10 +11,6 @@
     z-index: 1;
 }
 
-.products__link {
-    z-index: 1;
-}
-
 .products__icon {
     width: 4em;
     height: 4em;
@@ -28,6 +24,53 @@
 }
 
 .products__title {
+    font-family: "Playfair",serif;
     text-align: right;
     margin-bottom: 10px;
+}
+
+.product__category {
+    &:hover {
+        .card{
+        transform: scale(1.2);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        z-index: 2;
+        }
+    }
+
+    
+}
+
+.jam, .bakery, .deli, .seasons {
+    cursor: pointer;
+}
+
+  .seasons, #summer, #winter, #spring, #autumn, .bakery__display, .deli__display {
+    display: none;
+}
+
+.jam__text, .deli__text, .bakery__text {
+    font-family: 'Playfair',serif;
+    color: $orange;
+    span {
+        font-weight: bold;
+        font-size: larger;
+    }
+
+}
+
+.seasonsTabs {
+    .nav-link{
+    color: $orange;
+    &.active {
+        font-weight: bold;
+        border-color: $orange;
+        color: $orange;
+    }}
+}
+
+.products__display--title {
+    border-top: 3px solid $orange;
+    border-bottom: 3px solid $orange;
+    font-size: x-large;
 }

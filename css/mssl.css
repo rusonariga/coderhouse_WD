@@ -15,12 +15,30 @@
   background-size: cover;
   background-position: center; }
 
+.index__highlights {
+  width: fit-content;
+  height: fit-content;
+  margin-left: 30%;
+  margin-right: 30%; }
+
 .index__img {
-  height: 400px;
-  width: 400px; }
+  height: 350px;
+  width: 450px;
+  position: relative; }
 
 .carousel-control {
-  color: black; }
+  color: black;
+  right: 5px; }
+
+.jumbotron {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+@media only screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none; }
+  #navCart {
+    display: none; } }
 
 .navbar-custom {
   background-color: #ff666a0;
@@ -61,9 +79,6 @@
   height: 14em;
   z-index: 1; }
 
-.products__link {
-  z-index: 1; }
-
 .products__icon {
   width: 4em;
   height: 4em;
@@ -75,8 +90,39 @@
   text-align: left; }
 
 .products__title {
+  font-family: "Playfair",serif;
   text-align: right;
   margin-bottom: 10px; }
+
+.product__category:hover .card {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 2; }
+
+.jam, .bakery, .deli, .seasons {
+  cursor: pointer; }
+
+.seasons, #summer, #winter, #spring, #autumn, .bakery__display, .deli__display {
+  display: none; }
+
+.jam__text, .deli__text, .bakery__text {
+  font-family: 'Playfair',serif;
+  color: #ff6666; }
+  .jam__text span, .deli__text span, .bakery__text span {
+    font-weight: bold;
+    font-size: larger; }
+
+.seasonsTabs .nav-link {
+  color: #ff6666; }
+  .seasonsTabs .nav-link.active {
+    font-weight: bold;
+    border-color: #ff6666;
+    color: #ff6666; }
+
+.products__display--title {
+  border-top: 3px solid #ff6666;
+  border-bottom: 3px solid #ff6666;
+  font-size: x-large; }
 
 .index-body {
   background-image: url("../images/templates/index/mssl_bg_templates.jpg");
